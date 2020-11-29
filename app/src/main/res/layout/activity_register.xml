@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="#2a9df4"
+    tools:context=".register">
+
+    <ImageView
+        android:src="@drawable/image"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="135dp"
+        android:layout_marginTop="130dp" />
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter Username"
+        android:id="@+id/etUsername"
+        android:layout_marginTop="340dp"
+        android:layout_marginLeft="90dp"
+        android:textColorHint="#000000"
+        android:textSize="23sp"
+        android:textColor="#000000" />
+
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter Password"
+        android:id="@+id/etPassword"
+        android:inputType="textPassword"
+        android:layout_marginTop="395dp"
+        android:layout_marginLeft="90dp"
+        android:textColorHint="#000000"
+        android:textSize="23sp"
+        android:textColor="#000000" />
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="Re-type Password"
+        android:id="@+id/rtPass"
+        android:inputType="textPassword"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="90dp"
+        android:textColorHint="#000000"
+        android:textSize="23sp"
+        android:textColor="#000000" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="REGISTER"
+        android:layout_marginTop="505dp"
+        android:layout_marginLeft="160dp"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:id="@+id/reg"/>
+
+
+</RelativeLayout>
